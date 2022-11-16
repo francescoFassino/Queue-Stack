@@ -1,3 +1,11 @@
+/**
+ * @author francesco.fassino
+ * @author giulio.semenzato
+ * @author giacomo.esposito
+ * @author filippo.schierato
+ * @version 0.1
+ */
+
 package com.company;
 
 

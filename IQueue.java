@@ -1,11 +1,10 @@
 package com.company;
 /**
- * Interface for the <em>queue</em> data structure storing {@link Object}
- * references.
- *
  * @author francesco.fassino
+ * @author giulio.semenzato
+ * @author giacomo.esposito
+ * @author filippo.schierato
  * @version 0.1
- * @see IStack
  */
 
 

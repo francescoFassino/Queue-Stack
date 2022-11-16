@@ -1,3 +1,11 @@
+/**
+ * @author francesco.fassino
+ * @author giulio.semenzato
+ * @author giacomo.esposito
+ * @author filippo.schierato
+ * @version 0.1
+ */
+
 package com.company;
 
 public class Queue implements IQueue{
@@ -12,8 +20,6 @@ public class Queue implements IQueue{
      * meotodo che rialloca l'array
      * se il parametro boolean è true l'array verrà aumentato di 1
      * se il parametro boolean è false l'array verrà diminuito di 1
-     * @param bool
-     * @return
      */
     private void reAlloc(boolean bool){
         Object[] newArray;
@@ -34,7 +40,6 @@ public class Queue implements IQueue{
 
     /**
      * metodo che aggiunge alla coda un oggetto o
-     * @param o
      */
     public void enqueue(Object o){
         reAlloc(true);
@@ -43,7 +48,6 @@ public class Queue implements IQueue{
 
     /**
      * metodo che toglie dalla coda l'oggetto o
-     * @return
      */
     public Object dequeue(){
         if (!isEmpty()){
@@ -57,7 +61,6 @@ public class Queue implements IQueue{
 
     /**
      * meotodo che prende il primo elemento della coda
-     * @return
      */
     public Object front(){
         if (!isEmpty()){
@@ -69,7 +72,6 @@ public class Queue implements IQueue{
 
     /**
      * metodo che restituisce la lunghezza della coda
-     * @return
      */
     public int size(){
         return queue.length;
@@ -77,7 +79,6 @@ public class Queue implements IQueue{
 
     /**
      * metodo che verifica se la coda è vuota e ritorna true, altrimenti false
-     * @return
      */
     public boolean isEmpty(){
         if (this.queue.length==0){
